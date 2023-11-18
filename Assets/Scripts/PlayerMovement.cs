@@ -6,14 +6,27 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
     public float speed = 40f;
-    public float gravity = -9.81f;
+    public float gravity;
     public float jumpHeight = 3f;
     Vector3 velocity;
-
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
     bool isGrounded;
+
+
+    public static PlayerMovement Instance;
+
+    private void Start() {
+        if(Instance != null){
+            Destroy(this.gameObject);
+        }
+        else{
+            Instance = this;
+        }
+        GameObject.DontDestroyOnLoad(this.gameObject);
+    }
+
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
