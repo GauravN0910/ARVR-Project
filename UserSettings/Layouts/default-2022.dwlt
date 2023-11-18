@@ -327,18 +327,18 @@ MonoBehaviour:
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 78
   m_LastFolders:
   - Assets/Scenes
-  m_LastFoldersGridSize: -1
+  m_LastFoldersGridSize: 78
   m_LastProjectPath: C:\Users\gaura\Desktop\gaurav\Sem 5\ARVR\ARVR Project - NiGaMer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea590000
-    m_LastClickedID: 23018
-    m_ExpandedIDs: 00000000dc590000
+    m_SelectedIDs: 685a0000
+    m_LastClickedID: 23144
+    m_ExpandedIDs: 00000000525a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc590000
+    m_ExpandedIDs: 00000000525a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,7 +419,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 78
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &13
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 825a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 96effeff1ef0feff66f6feff74f8feff0004ffff703dffff0267ffff3ae6ffff12eeffff445900006659000084670000bc670000d4690000
+      m_ExpandedIDs: e69effffe4a1ffff70a3ffffb4a5ffffb4a6ffffaaa9ffff44abffff08d5ffffdad5ffffbcd6ffff26daffff72daffff16dbfffffedcffff6adeffff6ee1ffff0ef4ffff4ef6ffff8ef6ffff32fbffffac5e0000e45e000058620000546300008c630000546400005a6700003e69000076690000f86900007e6d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -862,9 +862,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 358.89014, y: 79.975075, z: 185.0166}
+    m_Target: {x: 440.2, y: 191.8, z: 0}
     speed: 2
-    m_Value: {x: 358.89014, y: 79.975075, z: 185.0166}
+    m_Value: {x: 440.2, y: 191.8, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -910,13 +910,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.08571018, y: 0.16363111, z: -0.014271928, w: 0.9826876}
+    m_Target: {x: -0.034448266, y: 0.05094765, z: 0.0017583884, w: 0.9981049}
     speed: 2
-    m_Value: {x: 0.08571019, y: 0.16363113, z: -0.014271929, w: 0.98268765}
+    m_Value: {x: -0.03444829, y: 0.050947685, z: 0.0017583895, w: 0.9981055}
   m_Size:
-    m_Target: 194.0915
+    m_Target: 350.43625
     speed: 2
-    m_Value: 194.0915
+    m_Value: 350.43625
   m_Ortho:
     m_Target: 1
     speed: 2

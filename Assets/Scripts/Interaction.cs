@@ -12,7 +12,11 @@ public class Interaction : MonoBehaviour
     public bool inRange;
     public KeyCode interactKey;
     public UnityEvent interactAction;
-
+    public GameObject gameObject;
+    
+    private void Start() {
+        gameObject.SetActive(false);
+    }
     private void Update()
     {
         if (inRange)
@@ -30,6 +34,7 @@ public class Interaction : MonoBehaviour
         {
             inRange = true;
             UnityEngine.Debug.Log("Hi");
+            gameObject.SetActive(true);
         }
     }
 
@@ -39,6 +44,7 @@ public class Interaction : MonoBehaviour
         {
             inRange = false;
             UnityEngine.Debug.Log("Bye");
+            gameObject.SetActive(false);
         }
     }
 }
