@@ -7,10 +7,19 @@ using UnityEngine.Events;
 public class NavigateToMapFromView : MonoBehaviour
 {
     public KeyCode interactKey;
-    public UnityEvent interactAction;
-    private void Update() {
-        if(Input.GetKeyDown(interactKey)){
-            interactAction.Invoke();
+    public KeyCode interactKey2;
+
+    public UnityEvent interactAction1;
+    public UnityEvent interactAction2;
+    private void Update()
+    {
+        if (Input.GetKeyDown(interactKey))
+        {
+            interactAction1.Invoke();
+        }
+        if (Input.GetKeyDown(interactKey2))
+        {
+            interactAction2.Invoke();
         }
     }
 }

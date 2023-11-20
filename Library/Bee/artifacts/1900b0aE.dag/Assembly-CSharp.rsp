@@ -354,6 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/CameraView.cs"
 "Assets/Scripts/Interaction.cs"
+"Assets/Scripts/InteriorPlayer.cs"
 "Assets/Scripts/NavigateToMapFromView.cs"
 "Assets/Scripts/Navigator.cs"
 "Assets/Scripts/PlayerMovement.cs"

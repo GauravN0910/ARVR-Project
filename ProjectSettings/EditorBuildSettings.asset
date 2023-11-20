@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ViewScreen.unity
     guid: be66a9ba57f41774f84c571b171a36ab
+  - enabled: 1
+    path: Assets/Scenes/InteriorView.unity
+    guid: 44f3794b05b9aab4799bd12372b0f3e3
   m_configObjects: {}

@@ -14,5 +14,8 @@ public class Navigator : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void NavigateToInterior(){
+        SceneManager.LoadScene(3);
+    }
 
 }

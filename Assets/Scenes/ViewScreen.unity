@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 07ad3ab72c3abc240a3facfd4c7d1b47, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -670,12 +670,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactKey: 101
-  interactAction:
+  interactKey2: 113
+  interactAction1:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1707570272}
         m_TargetAssemblyTypeName: Navigator, Assembly-CSharp
         m_MethodName: NavigatorToMap
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactAction2:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1707570272}
+        m_TargetAssemblyTypeName: Navigator, Assembly-CSharp
+        m_MethodName: NavigateToInterior
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
