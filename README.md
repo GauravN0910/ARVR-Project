@@ -13,10 +13,6 @@ git clone https://github.com/GauravN0910/ARVR-Project.git
 # Assets
 The contents of this directory correspond to the scripts, materials, and prefabs used to implement the virtual environment.
 
-## Blender Assets
-- Download Blender Version 3.2 or higher
-- Open `.blend` files from the Blender Directory
-
 ## Scripts
 The scripts in this directory are used to implement all the functional components of the application.
 
