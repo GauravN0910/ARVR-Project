@@ -13,15 +13,22 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
     bool isGrounded;
+    public AudioSource playerAudio;
+    public AudioClip source1;
 
 
     public static PlayerMovement Instance;
 
-    private void Start() {
-        if(Instance != null){
+    private void Start()
+    {
+        playerAudio.clip = source1;
+        playerAudio.Play();
+        if (Instance != null)
+        {
             Destroy(this.gameObject);
         }
-        else{
+        else
+        {
             Instance = this;
         }
         GameObject.DontDestroyOnLoad(this.gameObject);
